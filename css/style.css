@@ -1,0 +1,186 @@
+/* Learn to Code - Created by Leslie Gilbert on September 21, 2020 */
+
+
+body {
+    margin: 0px;
+	background-color:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: 100%;
+    padding-top: 20px;
+    color: #000;
+    background-color: #f2f2f2;
+}
+/* -------- main header text ----------*/
+
+h1 {
+    color: #20a8b4;
+    font-size: 40px;
+    font-style: regular;
+    margin-left: 2%;
+    background-color: #f2f2f2;
+}
+
+.code {
+    color: #ff5c0f;
+}
+
+
+/* -------- top nav bar ----------*/
+
+.topnav {
+    background-color: #f2f2f2;
+    color: #000;
+  }
+ 
+  .topnav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+  }
+  
+  .topnav a:hover {
+    color: #ff5c0f;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    margin: 10px 0;
+    color: #000;
+}
+
+/* -------- main content area ----------*/
+
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.codeimg {
+    display: none; 
+}
+
+.learningcode {
+    margin-left: 2%;
+    padding-top: 100px;
+    float: left;
+}
+
+h2 {
+
+    color: #000;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+
+}
+
+.learning {
+    color: #ff5c0f;
+
+}
+
+/* -------- cta/buttons ----------*/
+
+.button-top {
+    border-radius: 10px;
+    padding: 12px;
+    border: 0px;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #20a8b4;
+    color: #fff 
+}
+
+.button-top:hover {
+    background-color: #ff5c0f;
+    color: white;
+}
+
+/* -------- media queries ----------*/
+    @media all and (min-width: 768px) {
+        #button-top {
+           width: auto; 
+           display: flex;
+           white-space: nowrap;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f2f2f2;
+
+        }
+    }
+    @media all and (min-width: 768px) {
+        .topnav {
+            display: flex;
+            padding-right: 40px;
+            width: 60%;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        ul {
+            flex-direction: row;
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        li {
+            width: 100%;
+            align-items: center;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .content {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        .codeimg {
+            display: flex;
+            width: 40%;
+            padding-right: 40px;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .learningcode {
+            margin: 0px;
+            float: left;
+            width: 50%;
+            justify-content: flex-start;
+        }
+    }
+
+
+
+
+
+
+
+
